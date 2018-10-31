@@ -85,7 +85,7 @@ def  sentiment():
 	time.sleep(2)
 		 a=sentiment(tweet.full_text)
 		 print(a)
-def mess():
+def mes():
     user_id=input("Enter any id to send message:-")
     msg=input("Enter any message-")
     api.send_direct_message(user=user_id,text=message)
